@@ -9,6 +9,6 @@ public class Comsumer2 implements Consumable<ConsumerRecord<String, String>> {
 
     @Override
     public void doConsume(ConsumerRecord<String, String> record) {
-        System.out.println("Comsumer2收到数据为======"+record.value());
+        System.out.println("Comsumer2收到数据为============================"+record.value());
     }
 }
